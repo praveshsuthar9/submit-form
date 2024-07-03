@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Form</title>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="form-container">
+            <h1>Form</h1>
+            <input type="text" placeholder="Enter your name" id="input1" class="input" />
+            <br />
+            <input type="email" placeholder="Enter your email" id="input2"  class="input" />
+            <br />
+            <textarea name="" id="" cols="30" rows="10" placeholder="message..." class="message input"></textarea>
+            <div class="sumit-btn">
+                <button class="s-btn">Submit</button>
+            </div>
+        </div>
+
+        <!-- ------------------------data-container-start----------------------------- -->
+        <div class="data-container">
+            <h1>Data</h1>
+            <div class="del-btn" id="delBtn">
+                <i class="fa-solid fa-x"></i>
+            </div>
+          <div class="label">
+            <label for="">Name</label>
+            <label for="">Email</label>
+            <label for="">Message</label>
+          </div>
+            <div class="data">
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
